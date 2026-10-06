@@ -28,9 +28,30 @@ public class StudiKasus221 {
             }
 
         } else if (jenis.equals("PKM")) {
-            
+            // Cabang PKM
+            System.out.print("Jumlah dokumen  : ");
+            int dokumen = sc.nextInt();
+            System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos) : ");
+            int lolos = sc.nextInt();
+
+            if (lolos == 1) {
+                if (dokumen == 4) {
+                    System.out.println("Status : Berhak memperoleh dana penghargaan (PKM lolos pendanaan).");
+                } else {
+                    System.out.println("Status : Dokumen tidak lengkap (kurang " + (4 - dokumen)
+                            + " dokumen). Dana penghargaan tidak diberikan.");
+                }
+            } else {
+                System.out.println("Status : Tidak memperoleh dana penghargaan (PKM tidak lolos pendanaan).");
+            }
+
+        } else if (jenis.equals("LAINNYA")) {
+            System.out.println("Status : Tidak memperoleh dana penghargaan (jenis kegiatan tidak termasuk ketentuan).");
+
+        } else {
+            System.out.println("Jenis kegiatan tidak dikenali.");
+        }
 
         sc.close();
         }
     }
-}
