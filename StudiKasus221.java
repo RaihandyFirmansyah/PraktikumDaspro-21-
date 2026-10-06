@@ -28,9 +28,9 @@ public class StudiKasus221 {
             }
 
         } else if (jenis.equals("PKM")) {
-            // Cabang PKM
             
 
         sc.close();
+        }
     }
 }
