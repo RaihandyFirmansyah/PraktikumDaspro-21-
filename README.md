@@ -12,4 +12,3 @@ Kelas : SIB 1C
 | 1  |Mandiri| 4       | 0          | (hanya untuk Juara 1/2/3).                |  Sesuai | 
 | 1  |PKM    | 3       | 1          | Berhak memperoleh dana penghargaan        |  Sesuai | 
 | 1  |Lainnya| 3       | 1          | (jenis kegiatan tidak termasuk ketentuan) |  Sesuai |  
-
